@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import './firebase_options.dart';
 import 'app.dart';
 
-//TODO(codelab user): Get API key
+// TODO(codelab user): Get API key
 const clientId = 'YOUR_CLIENT_ID';
 
 Future<void> main() async {
@@ -13,4 +13,4 @@ Future<void> main() async {
   );
 
   runApp(const MyApp());
-  }
+}
